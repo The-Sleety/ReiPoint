@@ -155,7 +155,7 @@ async function loadSavedReis() {
   });
 }
 
-loader.load('/untitled.glb', function (gltf) {
+loader.load('public/Untitled.glb', function (gltf) {
   rei_model = gltf.scene;
   loadSavedReis(); 
 }, undefined, function (error) {
