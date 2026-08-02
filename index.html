@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Rei Point</title>
+    <style>
+      body { margin: 0; }
+      </style>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  </head>
+  <body scroll="no">
+    <script type="module" src="/main.js"></script>
+    <button onclick="add_rei()" style="position: absolute;  margin-top: 90px; margin-left: 5px;">ADD REI</button>
+    <input type="text" id="inputfield" placeholder="Your Name" maxlength="35" style="position: absolute; margin-top: 5px; margin-left: 5px;">    <input type="text" id="notefield" maxlength="60" placeholder="Add Note" style="position: absolute; margin-top: 47px; margin-left: 5px;">
+    <div id="infoContainer" style="position: absolute; top: 100;">
+      <div id="Name">Hello World</div>
+      <div id="Note">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ea vel iure ab cumque, molestias veniam omnis unde officia eaque, et, mollitia vero. Doloremque possimus quo a excepturi, ullam odit.</div>
+      <div id="Timestamp">Time</div>
+    </div>
+  </body>
+  <footer style="position:absolute; top: 98%; left: 43%;" id="footer">SleetyDev | Navigate with WASD</footer>
+  </html>

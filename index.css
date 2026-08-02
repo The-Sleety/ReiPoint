@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'tnrcb';
+  src: url('TimesNewRomanMTCondensedBold.otf') format('opentype');
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'tnrcb', 'Times New Roman', serif;
+}
+
+input, button {
+  min-width: 150px;
+  max-width: 150px;
+  font-size: 16px;
+  transform: scaleY(1.5);
+  transform-origin: center top;
+  background: rgba(0, 0, 0, 0.95);
+  color: white;
+  border: none;
+  outline: none; 
+  padding: 4px 8px;
+
+}
+input:focus, button:focus {
+  outline: 2px solid #52d053 ;
+}
+#Name,#Timestamp,#Note {
+  overflow: visible;
+  min-width: 300px;
+  max-width: 300px;
+
+  position: absolute;
+  white-space: wrap;
+  pointer-events: none; 
+  overflow-wrap: break-word;
+  font-size: 18px;
+  bottom: auto;
+  transform: scaleY(1.5);
+  transform-origin: center top;
+
+  color: white;
+  background: rgba(0, 0, 0, 0.95);
+  padding: 4px 8px;
+}
